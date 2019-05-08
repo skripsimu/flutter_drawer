@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: MyHomePage(title: 'Flutter Demo Home Page'),
+      home: MyHomePage(title: 'Flutter Drawer'),
     );
   }
 }
@@ -97,7 +97,9 @@ class _MyHomePageState extends State<MyHomePage> {
         ),
       ),
       appBar: AppBar(
-        title: Text(widget.title),
+        backgroundColor: Colors.white,
+        title: Text(widget.title,style: TextStyle(color: Colors.black87),),
+        iconTheme: new IconThemeData(color: Colors.black87),
       ),
       body: Center(
         child: Column(
