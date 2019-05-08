@@ -50,7 +50,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 backgroundColor:
                 Theme.of(context).platform == TargetPlatform.iOS
                     ? Colors.white
-                    : Colors.blue,
+                    : Colors.black87,
                 child: Text(
                   "D",
                   style: TextStyle(fontSize: 40.0,color: Colors.white),
@@ -116,6 +116,7 @@ class _MyHomePageState extends State<MyHomePage> {
         ),
       ),
       floatingActionButton: FloatingActionButton(
+        backgroundColor: Colors.black87,
         onPressed: _incrementCounter,
         tooltip: 'Increment',
         child: Icon(Icons.add),
